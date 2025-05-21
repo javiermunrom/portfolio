@@ -1,0 +1,87 @@
+/* Espacio debajo del header */
+.hero-spacer {
+  height: 100vh;
+}
+
+/* Intro */
+.intro-section {
+  background-color: #181818;
+  color: white;
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.intro-subtitle {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.intro-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+
+.contact-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: white;
+  color: #121212;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.contact-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Projects section */
+.projects-section {
+  background-color: #181818;
+  padding: 40px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.project-card {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.project-category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 4px;
+}
