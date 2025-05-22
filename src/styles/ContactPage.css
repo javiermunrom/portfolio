@@ -1,0 +1,45 @@
+.contact-page-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.background-hero {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+/* Capa translúcida encima */
+.overlay-blur {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.contact-form-container {
+  position: relative;
+  z-index: 2;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caja elegante con borde redondeado */
+.form-glass-box {
+  background: rgba(24, 24, 24, 0.8);
+  padding: 50px 40px;
+  border-radius: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  width: 100%;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

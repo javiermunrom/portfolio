@@ -1,0 +1,100 @@
+/* AboutYFormacion.css */
+
+/* Establece fondo oscuro para toda la sección */
+.about-formacion-wrapper {
+  width: 100%;
+  background-color: #181818;
+  color: white;
+  font-family: "Inter", sans-serif;
+  padding: 80px 20px;
+  box-sizing: border-box;
+}
+
+/* Contenido centrado */
+.about-section,
+.formacion-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Títulos de sección */
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Texto sobre mí */
+.about-section p {
+  font-size: 1.1rem;
+  color: #d0d0d0;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Sección de formación */
+.formacion-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Entrada individual */
+.formacion-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* Año a la izquierda */
+.formacion-year {
+  min-width: 80px;
+  font-weight: 500;
+  color: #aaaaaa;
+  font-size: 1rem;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Texto previsto debajo del año */
+.formacion-previsto {
+  font-size: 0.85rem;
+  color: #888888;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+/* Detalles a la derecha */
+.formacion-details {
+  flex: 1;
+}
+
+.formacion-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.formacion-details p {
+  margin: 5px 0;
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive para móvil */
+@media screen and (max-width: 768px) {
+  .formacion-entry {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .formacion-year {
+    text-align: left;
+  }
+}

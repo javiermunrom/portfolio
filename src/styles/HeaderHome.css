@@ -13,10 +13,10 @@
   object-position: center;
 }
 
-/* Texto central grande */
+/* Texto grande centrado */
 .hero-title {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 10vw;
@@ -26,6 +26,23 @@
   white-space: nowrap;
   z-index: 2;
   pointer-events: none;
+}
+
+/* Descripción debajo de la imagen */
+.hero-description-box {
+  position: absolute;
+  bottom: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 1.6;
+  z-index: 3;
+  padding: 0 20px;
 }
 
 /* Bloque superior */
@@ -50,7 +67,7 @@
   max-width: 15%;
 }
 
-/* Contenedor centrado de la flecha */
+/* Contenedor de la flecha de scroll */
 .scroll-down-container {
   position: absolute;
   bottom: 40px;
@@ -72,7 +89,7 @@
   animation: bounce 2s infinite;
 }
 
-/* Flecha dentro del círculo */
+/* Flecha */
 .scroll-down-arrow {
   font-size: 1.8rem;
   color: white;
